@@ -1,0 +1,197 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2B50AA;
+}
+
+header {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #fbf5f3;
+    height: 210px;
+    padding-top: 50px;
+}
+
+header h1 {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-weight: normal;
+    font-size: px;
+}
+
+header h1,
+h2 {
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fbf5f3;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 12px 12px 12px;
+    white-space: nowrap;
+}
+
+header nav ul li a:hover {
+    background-color: #2B50AA;
+    color: #fbf5f3;
+    border-radius: 15px;
+    padding: 12px 12px 12px 12px;
+    max-width: 150%;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container #quem-sou {
+    display: flex;
+    width: 60%;
+    padding: 30px 0px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#quem-sou p {
+    max-width: 420px;
+    color: #fbf5f3;
+    font-size: 15px;
+    background-color: #ad2831;
+    justify-content: space-around;
+    padding: 18px;
+    border-radius: 15px;
+}
+
+.container #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfolio div {
+    width: 30%;
+    margin: 10px;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+#quem-sou img {
+    max-width: 300px;
+    border-radius: 150px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.95);
+    color: #fbf5f3;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+form, input, textarea, button {
+    display: block;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 15px;
+
+}
+
+form input {
+    width: 500px;
+    height: 50px;
+    margin: 10px
+}
+
+form textarea {
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+    resize: none;
+}
+
+form button {
+    background-color: #ad2831;
+    color: #fbf5f3;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: none;
+}
+
+#skills-lista img {
+    max-height: 80px;
+    margin-right: 20px;
+}
+
+#skills-lista {
+    display: flex;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+#skills-lista ul {
+    list-style: none;
+    max-height: 150px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+p {
+    max-width: 420px;
+    color: #fbf5f3;
+    font-size: 15px;
+    background-color: #ad2831;
+    padding: 18px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#skills {
+    vertical-align: middle;
+    box-sizing: border-box;
+}
