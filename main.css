@@ -15,14 +15,14 @@ header {
     background-color: rgba(0, 0, 0, 0.95);
     color: #fbf5f3;
     height: 210px;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 header h1 {
     font-family: 'Bebas Neue';
     font-weight: normal;
     font-size: 45px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 header h2 {
@@ -126,6 +126,7 @@ footer {
 h2 {
     margin-bottom: 15px;
     margin-top: 40px;
+    text-align: center;
 }
 
 form, input, textarea, button {
@@ -194,4 +195,48 @@ p {
 #skills {
     vertical-align: middle;
     box-sizing: border-box;
+}
+
+#social-links {
+    display: flex;
+}
+
+#social-links ul {
+    list-style: none;
+    display: flex;
+
+}
+
+#social-links img {
+    max-height: 30px;
+    cursor: pointer;
+    margin: 8px;
+    float: left;
+}
+
+.container #contato {
+    display: flex;
+}
+
+.container #tel-contato{
+    padding: 20px;
+}
+
+#tel-contato p {
+    text-align: center;
+    margin-left: 0;
+    background-color:#2B50AA;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 12px;
+}
+
+#tel-contato h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container #contato h3 {
+    text-align: center;
 }
